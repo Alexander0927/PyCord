@@ -1,0 +1,6 @@
+@echo off
+echo Starting server...
+python server.py
+echo Exiting...
+timeout 5 >null
+exit
